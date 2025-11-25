@@ -8,12 +8,13 @@ echo IP: %IP%
 echo MAC: %MAC%
 curl -k -s "https://10.10.0.1/24online/servlet/E24onlineHTTPClient" ^
  -d "mode=191" ^
- -d "username=12407370@lpu.com" ^
- -d "password=1711@Satyam" ^
+ -d "username=YOUR_USER_ID@lpu.com" ^
+ -d "password=YOUR_PASSWORD" ^
  -d "ipaddress=%IP%" ^
  -d "macaddress=%MAC%" ^
  -d "logintype=2" ^
  -d "checkClose=1"
 echo.
 echo ✔ Logged in!
+
 pause
