@@ -15,5 +15,9 @@ A simple tool that lets you log in to **internet.lpu.com** instantly with one cl
 - Logs you in automatically
 - Works on all Windows versions
 
+## Important
+If Smart App Control blocks the script, you can right-click → Properties → Unblock the file.
+If needed, you may temporarily turn off Smart App Control from Windows Security → App & Browser Control.
+
 ## Note
 This project is not affiliated with LPU. It only automates the normal login process.
