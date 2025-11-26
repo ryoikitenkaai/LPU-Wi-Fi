@@ -42,7 +42,7 @@ batchContent = "@echo off" & vbCrLf & _
 " -d ""checkClose=1""" & vbCrLf & _
 "echo." & vbCrLf & _
 "echo ✔ Logged in!" & vbCrLf & _
-"pause"
+"exit"
 
 ' Write to file
 Set objFile = objFSO.CreateTextFile("lpu-login.bat", True)
@@ -74,4 +74,5 @@ If confirm = vbYes Then
     
     Set objShell = CreateObject("WScript.Shell")
     objShell.Run """" & tempBat & """", 0, False
+
 End If
