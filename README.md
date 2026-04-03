@@ -1,4 +1,4 @@
-# LPU Wi-Fi Auto Login
+# LPU Wi-Fi Auto Login Script
 
 A simple tool that lets you log in to **internet.lpu.com** instantly with one click.
 
